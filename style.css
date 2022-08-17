@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(158, 230, 248);
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/finalbg.png);
+  background-size: cover;
+  background-position: right;
+}
+
+.container{
+    padding: 20px 10%;
+    
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(158, 230, 248);
+}
+
+nav ul li a:hover{
+    background-color: rgb(0, 174, 255);
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.htext{
+    margin-top: 20%;
+    margin-left: -5%;
+    font-size: 30px;
+}
+
+.htext p{
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+.btn{
+    margin-top: 50px ;
+    margin-left: 25%;
+    
+}
+
+.btn-bg{
+    font-size: 28px;
+    padding: 10px;
+    background-color: rgb(158, 230, 248);
+    cursor: pointer;
+    color: rgb(1, 123, 180);
+    border-radius: 10px;
+}
+
+.btn-bg:hover{
+    background-color: rgb(0, 174, 255) ;
+    color: aqua;
+}
+
+.bio{
+    display: flex;
+}
+.intro{
+    width: 50%;
+    margin: 15px;
+    
+}
+
+.intro h1{
+    font-size: 36px;
+    text-align: center;
+    color: rgb(0, 174, 255);
+}
+
+.intro p{
+    font-size: 22px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.mypic img{
+    width: 480px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
